@@ -1,12 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portafolio</title>
+    <title>Portafolio de Carlos David Feliz Ramirez</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <p>Hola Mundo</p>
-    
+    <header>
+        <h1>Carlos David Feliz Ramirez</h1>
+        <p>Desarrollador de Software</p>
+    </header>
+
+    <section id="sobre-mi">
+        <h2>Sobre Mí</h2>
+        <p>Soy un apasionado desarrollador de software con experiencia en una amplia gama de tecnologías.</p>
+    </section>
+
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>AngularJs</li>
+            <li>Java</li>
+            <li>SpringBoot</li>
+            <li>Python</li>
+            <li>C/C++</li>
+            <li>Typescript</li>
+            <li>Javascript</li>
+            <li>Shell/Bash</li>
+            <li>Linux</li>
+        </ul>
+    </section>
+
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <div class="proyecto">
+            <h3>Proyecto 1</h3>
+            <p>Descripción del proyecto 1.</p>
+        </div>
+    </section>
+
+    <footer>
+        <h2>Contacto</h2>
+        <form id="form-contacto">
+            <input type="text" id="nombre" name="nombre" placeholder="Tu Nombre" required>
+            <input type="email" id="email" name="email" placeholder="Tu Email" required>
+            <textarea id="mensaje" name="mensaje" placeholder="Tu Mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </footer>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
