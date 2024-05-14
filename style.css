@@ -97,6 +97,11 @@ h1, h2 {
     margin-bottom: 15px;
 }
 
+.proyecto-link {
+    text-decoration: none;
+    color: inherit;
+}
+
 form input, form textarea {
     width: calc(100% - 22px);
     padding: 10px;
@@ -134,4 +139,3 @@ form button:hover {
         transform: translateX(-50%);
     }
 }
-
